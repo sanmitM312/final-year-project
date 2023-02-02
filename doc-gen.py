@@ -31,9 +31,9 @@ doc,tag,text = Doc().tagtext()
 with tag('Doctors'):
     for i in range(1,rec_num+1):
         with tag('doctor'):
-                with tag('docId'):
+                with tag('id'):
                     text("{i}".format(i=i))
-                with tag('docName'):
+                with tag('name'):
                     text(getName())
                 with tag('specialization'):
                     text(getSpecialization())

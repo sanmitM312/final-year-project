@@ -27,9 +27,9 @@ doc,tag,text = Doc().tagtext()
 with tag('Patients'):
     for i in range(1,rec_num+1):
         with tag('patient'):
-                with tag('patientId'):
+                with tag('id'):
                     text("{i}".format(i=i))
-                with tag('patientName'):
+                with tag('name'):
                     text(getName())
                 with tag('city'):
                     text(getCity())
