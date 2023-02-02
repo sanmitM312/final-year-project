@@ -1,0 +1,51 @@
+<Patients>
+
+    <patient>
+
+        <patientId>1</patientId>
+
+        <patientName>NTilEOjiSR</patientName>
+
+        <city>Kolkata</city>
+
+        <age>10</age>
+
+    </patient>
+
+    <patient>
+
+        <patientId>5</patientId>
+
+        <patientName>bequWoZVlp</patientName>
+
+        <city>Delhi</city>
+
+        <age>25</age>
+
+    </patient>
+
+    <patient>
+
+        <patientId>7</patientId>
+
+        <patientName>CdiOlffXvR</patientName>
+
+        <city>Kolkata</city>
+
+        <age>21</age>
+
+    </patient>
+
+    <patient>
+
+        <patientId>10</patientId>
+
+        <patientName>BVQvjmMMFZ</patientName>
+
+        <city>Delhi</city>
+
+        <age>22</age>
+
+    </patient>
+
+</Patients>

@@ -1,0 +1,75 @@
+<Patients>
+
+    <patient>
+
+        <patientId>2</patientId>
+
+        <patientName>cTeUVUSGrT</patientName>
+
+        <city>Delhi</city>
+
+        <age>72</age>
+
+    </patient>
+
+    <patient>
+
+        <patientId>3</patientId>
+
+        <patientName>ZRvZStxudD</patientName>
+
+        <city>Kolkata</city>
+
+        <age>57</age>
+
+    </patient>
+
+    <patient>
+
+        <patientId>4</patientId>
+
+        <patientName>TpWSlbHAUx</patientName>
+
+        <city>Kolkata</city>
+
+        <age>63</age>
+
+    </patient>
+
+    <patient>
+
+        <patientId>6</patientId>
+
+        <patientName>hdNqdcGgnW</patientName>
+
+        <city>Delhi</city>
+
+        <age>53</age>
+
+    </patient>
+
+    <patient>
+
+        <patientId>8</patientId>
+
+        <patientName>hsZVgidAor</patientName>
+
+        <city>Delhi</city>
+
+        <age>42</age>
+
+    </patient>
+
+    <patient>
+
+        <patientId>9</patientId>
+
+        <patientName>BorbqApBoI</patientName>
+
+        <city>Kolkata</city>
+
+        <age>77</age>
+
+    </patient>
+
+    </Patients>
