@@ -51,6 +51,6 @@ result = indent(
 
 # print(result)
 
-file = open("doc.xml","w")
+file = open("./xml_files/doc.xml","w")
 file.writelines(result)
 file.close()

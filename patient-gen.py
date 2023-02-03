@@ -43,8 +43,7 @@ result = indent(
     newline =  '\r\n'
 )
 
-# print(result)
 
-file = open("patient.xml","w")
+file = open("./xml_files/patient.xml","w")
 file.writelines(result)
 file.close()

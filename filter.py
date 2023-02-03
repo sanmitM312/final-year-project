@@ -7,7 +7,7 @@ import sys
 # 1. remove patients <= 40 from that file
 # 2. for mutual exclusiveness remove > 40 from original file as well
 
-tree = ET.parse('patient.xml')
+tree = ET.parse('./xml_files/patient.xml')
 root = tree.getroot()
 
 for patient in root.findall('patient'):
@@ -15,19 +15,19 @@ for patient in root.findall('patient'):
     if age <= 40:
         root.remove(patient)
 
-tree.write('patientGT40.xml')
+tree.write('./xml_files/patientGT40.xml')
 
-tree = ET.parse('patient.xml')
+tree = ET.parse('./xml_files/patient.xml')
 root = tree.getroot()
 
 for patient in root.findall('patient'):
     age = int(patient.find('age').text)
     if age > 40:
         root.remove(patient)
-tree.write('patientLT40.xml')
+tree.write('./xml_files/patientLT40.xml')
 
 ## CITY
-tree = ET.parse('patient.xml')
+tree = ET.parse('./xml_files/patient.xml')
 root = tree.getroot()
 
 for patient in root.findall('patient'):
@@ -35,10 +35,10 @@ for patient in root.findall('patient'):
     if city == 'Delhi':
         root.remove(patient)
 
-tree.write('patientKol.xml')
+tree.write('./xml_files/patientKol.xml')
 
 
-tree = ET.parse('patient.xml')
+tree = ET.parse('./xml_files/patient.xml')
 root = tree.getroot()
 
 for patient in root.findall('patient'):
@@ -46,4 +46,4 @@ for patient in root.findall('patient'):
     if city == 'Kolkata':
         root.remove(patient)
 
-tree.write('patientDel.xml')
+tree.write('./xml_files/patientDel.xml')
