@@ -16,7 +16,7 @@ def search_by_name(file:str, name:str, flag:str):
         root = tree.getroot()
         for doc in root.findall('patient'):
             if doc.find("ptName").text == name:
-                return [doc.find("ptId").text, doc.find("ptName").text, doc.find("city").text]
+                return [doc.find("ptId").text, doc.find("ptName").text, doc.find("city").text, doc.find("age").text]
 
 
 parser = argparse.ArgumentParser()
@@ -48,7 +48,7 @@ if args.doctorname:
             rec = search_by_name(files[2], args.doctorname, "d")
         hit = 2
     print(rec)
-    print("total time taken  ",time.time()-start)
+    print("total time taken  ",(time.time()-start)*1000)
 
 if args.patientname:
     hit = 1
@@ -71,4 +71,4 @@ if args.patientname:
             rec = search_by_name(files[2], args.patientname, "p")
         hit = 2
     print(rec)
-    print("total time taken  ",time.time()-start)
+    print("total time taken  ",(time.time()-start)*1000)
